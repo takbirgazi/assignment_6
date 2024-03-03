@@ -53,116 +53,19 @@
 
         <div class="flex flex-col lg:flex-row gap-5 mt-14">
             
-            <div class="lg:w-[60%] flex gap-5 flex-col">
-
-              <div class="flex gap-2 border rounded-md p-4">
-                <div class="w-10%">
-                  <div class="avatar online">
-                    <div class="w-10 rounded-full">
-                      <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                    </div>
-                  </div>
-                </div>
-                <div class="flex gap-2 flex-col w-[90%]">
-                  <p class="text-xs text-black"><span># Music</span> <span>Author : Awlad Hossain</span></p>
-                  <p class="text-sm text-black font-bold">10 Kids Unaware of Their Halloween Costume</p>
-                  <p class="text-xs border-b-2 border-dashed pb-6">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
-                  <div class="flex justify-between items-center mb-5">
-                    <div class="flex lg:w-[60%] gap-1 items-center justify-between flex-row">
-                      <div class="flex items-center gap-1">
-                        <img src="images/msg.png" alt="">
-                        <p>564</p>
-                      </div>
-                      <div class="flex items-center gap-1">
-                        <img src="images/eye.png" alt="">
-                        <p>564</p>
-                      </div>
-                      <div class="flex items-center gap-1">
-                        <img src="images/time.png" alt="">
-                        <p>564</p>
-                      </div>
-                  </div>
-                  <div class="lg:w-[40%] flex items-center justify-end">
-                    <img src="images/email.png" alt="">
-                  </div>
-                </div>
-              </div>                
+            <div id="discussCard" class="lg:w-[60%] flex gap-5 flex-col">
+            <!-- Car Bpx Start -->
+            <!-- Card Box End  -->
             </div>
-
-            <div class="flex gap-2 border rounded-md p-4">
-              <div class="w-10%">
-                <div class="avatar online">
-                  <div class="w-10 rounded-full">
-                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                  </div>
-                </div>
-              </div>
-              <div class="flex gap-2 flex-col w-[90%]">
-                <p class="text-xs text-black"><span># Music</span> <span>Author : Awlad Hossain</span></p>
-                <p class="text-sm text-black font-bold">10 Kids Unaware of Their Halloween Costume</p>
-                <p class="text-xs border-b-2 border-dashed pb-6">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
-                <div class="flex justify-between items-center mb-5">
-                  <div class="flex lg:w-[60%] gap-1 items-center justify-between flex-row">
-                    <div class="flex items-center gap-1">
-                      <img src="images/msg.png" alt="">
-                      <p>564</p>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <img src="images/eye.png" alt="">
-                      <p>564</p>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <img src="images/time.png" alt="">
-                      <p>564</p>
-                    </div>
-                </div>
-                <div class="lg:w-[40%] flex items-center justify-end">
-                  <img src="images/email.png" alt="">
-                </div>
-              </div>
-            </div>                
-          </div>
-
-
-            </div>
-
-
 
             <div class="lg:w-[40%]">
               <div class="bg-gray-400 border rounded-md p-4">
                 <div class="flex justify-between ">
                   <p class="text-black font-bold">Title</p>
-                  <span class="flex gap-2 text-black"><img src="images/tick.png" alt=""> <span>Mark as read (<span>0</span>)</span></span>
+                  <span class="flex gap-2 text-black"><img src="images/tick.png" alt=""> <span>Mark as read (<span id="redpostCount">0</span>)</span></span>
                 </div>
-
-                <div class="flex gap-3 my-4 bg-white rounded-md p-2 items-start">
-                  <p class="flex-1 text-black opacity-70">10 Kids Unaware of Their Halloween Costume Their Halloween Costume</p> 
-                  <div class="flex gap-1 h-10 items-center">
-                    <img src="images/eye.png" alt="">
-                    <span>543</span>
-                  </div>
-                </div>
-
-                <div class="flex gap-3 my-4 bg-white rounded-md p-2 items-start">
-                  <p class="flex-1 text-black opacity-70">10 Kids Unaware of Their Halloween Costume Their Halloween Costume</p> 
-                  <div class="flex gap-1 h-10 items-center">
-                    <img src="images/eye.png" alt="">
-                    <span>543</span>
-                  </div>
-                </div>
-                <div class="flex gap-3 my-4 bg-white rounded-md p-2 items-start">
-                  <p class="flex-1 text-black opacity-70">10 Kids Unaware of Their Halloween Costume Their Halloween Costume</p> 
-                  <div class="flex gap-1 h-10 items-center">
-                    <img src="images/eye.png" alt="">
-                    <span>543</span>
-                  </div>
-                </div>
-                <div class="flex gap-3 my-4 bg-white rounded-md p-2 items-start">
-                  <p class="flex-1 text-black opacity-70">10 Kids Unaware of Their Halloween Costume Their Halloween Costume</p> 
-                  <div class="flex gap-1 h-10 items-center">
-                    <img src="images/eye.png" alt="">
-                    <span>543</span>
-                  </div>
+                <div id="readPost">
+                    <!-- Read Post Card  -->
                 </div>
 
               </div>
@@ -189,26 +92,10 @@
           <h3 class="text-4xl font-bold text-black text-center">Latest Posts</h3>
           <p class="text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
         </div>
-        <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-14">
+        <div id="latestPost" class="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-14">
             <!-- Post Card Start -->
-            <div class="border rounded-lg p-2 flex flex-col gap-2">
-                <img src="images/bgbanner.png" alt="">
-                <div class="flex items-center gap-1"><img src="images/date.png" alt=""><span>29 January 2024</span></div>
-                <p class="text-black font-bold text-sm">What will a mars habitat force that impact in our daily life!!!</p>
-                <p class="text-sm">Yes, you can run unit tests and view the results directly within the app. </p>
-                <div class="flex gap-1 items-center ">
-                  <img src="images/date.png" class="w-10 h-10 rounded-full" alt="">
-                  <div>
-                    <p class="text-sm text-black font-bold">Cameron Williamson</p>
-                    <p class="text-xs">Unknown</p>
-                  </div>
-                </div>
-            </div>
+
             <!-- Post Card end -->
-
-
-
-
         </div>
       </section>
     </main>
@@ -228,5 +115,6 @@
         <p class="text-center">2017, All Rights Reserved.</p>
       </section>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
