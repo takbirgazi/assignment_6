@@ -32,7 +32,7 @@
               <h2 class="text-4xl font-bold w-[70%]">Welcome to the <span class="bg-gradient-to-r from-blue-300 via-blue-800 inline-block text-transparent bg-clip-text">ReTro</span> Forum</h2>
               <p class="">Share your favorite opinion and win and wp <br/> forum coffee mug!</p>
               <div class="p-2 lg:bg-white rounded-full flex lg:flex-row flex-col gap-1 justify-between lg:w-[60%]">
-                <input id="searchInput" type="text" class="lg:bg-transparent outline-0 rounded-full lg:rounded-none lg:p-0 p-2" placeholder="Search here anything" required><button id="searchButton" class="rounded-full bg-blue-700 lg:px-4 px-2 py-1 font-bold text-center">Search</button>
+                <input id="searchInput" type="text" class="lg:bg-transparent outline-0 rounded-full lg:rounded-none lg:p-0 p-2 bg-transparent" placeholder="Search here anything" required><button id="searchButton" class="rounded-full bg-blue-700 lg:px-4 px-2 py-1 font-bold text-center">Search</button>
               </div>
             </div>
             <div class="lg:w-1/2 lg:p-10 flex items-center justify-center">
@@ -52,7 +52,9 @@
         </div>
 
         <div class="flex flex-col lg:flex-row gap-5 mt-14">
-            
+            <div id="loaddingDiv" class="lg:w-[60%] flex items-center justify-center hidden">
+              <span class="loading loading-spinner loading-lg"></span>
+            </div>
             <div id="discussCard" class="lg:w-[60%] flex gap-5 flex-col">
             <!-- Car Bpx Start -->
             <!-- Card Box End  -->
